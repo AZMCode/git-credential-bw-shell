@@ -1,4 +1,4 @@
-declare scriptUrl="https://raw.githubusercontent.com/AZMCode/git-credential-bw/master/git-credential-bw"
+declare scriptUrl="https://raw.githubusercontent.com/AZMCode/git-credential-bw-shell/master/git-credential-bw"
 if [ -d ~/.local/bin ]; then
 	curl "$scriptUrl" > ~/.local/bin/git-credential-bw
 	chmod +x ~/.local/bin/git-credential-bw
