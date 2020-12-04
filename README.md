@@ -13,7 +13,7 @@ It currently only implements the `get` command.
 Running this command will install the helper in either ~/.local/bin if it exists, otherwise with sudo in /usr/bin.
 It will also configure the helper to be used
 ```
-curl -s https://raw.githubusercontent.com/AZMCode/git-credential-bw/master/installer.sh | bash -s
+curl -s https://raw.githubusercontent.com/AZMCode/git-credential-bw-shell/master/installer.sh | bash -s
 ```
 
 ### Manual Installation
