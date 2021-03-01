@@ -4,6 +4,6 @@ if [ -d ~/.local/bin ]; then
 	chmod +x ~/.local/bin/git-credential-bw
 else
 	sudo curl "$scriptUrl" > /usr/bin/git-credential-bw
-	sudo chmod +x ~/.local/bin/git-credential-bw
+	sudo chmod +x /usr/bin/bin/git-credential-bw
 fi
 git config --global --add credential.helper bw
